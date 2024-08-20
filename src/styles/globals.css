@@ -1,0 +1,19 @@
+@import './prism.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white;
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(0, 0, 0, 0));
+  }
+}
+
+.gradient-background {
+  background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(0, 0, 0, 0));
+}
+
+.gradient-overlay {
+  background-image: radial-gradient(ellipse 600px 500px at 50% 200px, rgba(43, 43, 59, 0.8), transparent);
+}
