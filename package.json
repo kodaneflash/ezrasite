@@ -33,7 +33,7 @@
     "framer-motion": "^11.3.24",
     "install": "^0.13.0",
     "lucide-react": "^0.363.0",
-    "next": "~14.1.0",
+    "next": "~14.2.12",
     "next-mdx-remote": "^4.4.1",
     "npm-run-all": "^4.1.5",
     "react": "latest",
